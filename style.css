@@ -52,18 +52,69 @@ nav .right{
     background: black;
     width: inherit;
     height: inherit;
+   
     padding: 10px;
 }
 
 input{
     background: rgb(0, 0, 0);
+    border: hidden;
     width: inherit;
     height: inherit;
-    border: none;
+    
     padding: 1px 2px;
     font-size: 1.2vw;
-    color:white;
 }
+
+main{
+    display: flex;
+}
+
+section{
+    margin-left: 40px;
+    width: 800px;
+    margin-top: 20px;
+   
+}
+
+iframe{
+    width: inherit;
+    height: 450px;
+ 
+}
+h3{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+
+ .details{
+    width: inherit;
+    display: flex;
+    
+    font-size: 15px;
+}
+
+.details p, .details span {
+    color: rgb(75, 78, 80);
+}
+.details span{
+    margin-left: 4px;
+    margin-right: 4px;
+    margin: 0px 4px;
+}
+
+aside{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.thumb{
+    width: 50%;
+}
+
+  
+
+
 
 
 
